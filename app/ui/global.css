@@ -16,3 +16,29 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@font-face {
+  font-family: 'Eva_italic';
+  src: url('@/public/fonts/evangelion-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Eva-normal';
+  src: url('@/public/fonts/evangelion-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.eva_italic {
+  font-family: 'Eva_italic', sans-serif;
+  font-weight: lighter;
+}
+.eva_normal {
+  font-family: 'Eva-normal', sans-serif;
+  font-weight: lighter;
+    font-style: normal;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
